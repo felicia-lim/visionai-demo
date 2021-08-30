@@ -373,11 +373,11 @@ export default defineComponent({
         // prompt: `${title1.value}\n${article2.value}\n\n${title2.value}\n${article2.value}\n\n${title3.value}\n${article3.value}\n\n${inputTitle.value}\n`,
         prompt: `${title1.value}\n${article1.value}\n\n${title2.value}\n${article2.value}\n\n${title3.value}\n${article3.value}\n\n${inputTitle.value}\n`,
         temperature: 1.0,
-        max_tokens: 440,
+        max_tokens: 650,
         top_p: 0.1,
         frequency_penalty: 0.8,
         presence_penalty: 1.0,
-        stop: ["\n"],
+        // stop: ["\n"],
       })
 
       let requestOptions = {
