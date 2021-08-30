@@ -376,8 +376,8 @@ export default defineComponent({
         max_tokens: 500,
         top_p: 0.1,
         frequency_penalty: 0.8,
-        presence_penalty: 1.0
-        // stop: ["\n\n"]
+        presence_penalty: 1.0,
+        stop: ["\n\n"]
       })
 
       let requestOptions = {
